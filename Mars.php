@@ -13,6 +13,6 @@ $json_arr[]=array(
    'poderes'=>$_REQUEST['poderes']
 );
 file_put_contents($filename, json_encode($json_arr));
-header("Location:http://localhost/Oblivion/mars.html")
+header("Location:http://localhost/Oblivion/index.html")
 
 ?>
